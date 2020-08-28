@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import './style.scss';
+import './styles.scss';
 
 
 function Button({clickFn, value, className, disable}) {
