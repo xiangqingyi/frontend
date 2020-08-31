@@ -48,7 +48,7 @@ class ChatHeader extends React.Component {
 
 export default withRouter(ChatHeader);
 
-ChatHeader.PropTypes = {
+ChatHeader.propTypes = {
     title: PropTypes.string,
     history: PropTypes.object,
     chatType: PropTypes.string.isRequired,

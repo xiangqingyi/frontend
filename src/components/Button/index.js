@@ -15,12 +15,13 @@ function Button({clickFn, value, className, disable}) {
         />
     )
 }
-Button.PropTypes = {
+Button.propTypes = {
     clickFn: PropTypes.func,
     value: PropTypes.string,
     className: PropTypes.string,
-    disable: PropTypes.bool
-};
+    disable: PropTypes.bool,
+  };
+  
 Button.defaultProps = {
     clickFn: undefined,
     value: '',
