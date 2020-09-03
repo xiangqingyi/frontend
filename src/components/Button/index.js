@@ -28,3 +28,5 @@ Button.defaultProps = {
     className: undefined,
     disable: false
 }
+
+export default Button;
