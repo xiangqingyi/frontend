@@ -1,4 +1,4 @@
-import Reactt from 'react';
+import React from 'react';
 import './styles.scss';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -128,12 +128,12 @@ class SignInSignUp extends React.Component {
 
 export default SignInSignUp;
 
-SignInSignUp.prototype = {
+SignInSignUp.protoType = {
     setValue: PropTypes.func,
     isLogin: PropTypes.bool
 }
 
-SignInSignUp,defaultProps = {
+SignInSignUp.defaultProps = {
     setValue() {
 
     },
