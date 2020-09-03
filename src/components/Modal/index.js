@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './style.scss';
+import './styles.scss';
 import ModalBase from '../ModalBase';
 
 function confirmCancelRender(props) {
@@ -48,7 +48,7 @@ function dialogRender(props) {
         </div>
     );
 }
-dialogRender.prototype = {
+dialogRender.propTypes = {
     title: PropTypes.string,
     children: PropTypes.node
 }
