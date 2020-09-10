@@ -83,6 +83,7 @@ class GroupModal extends React.Component {
     }
 }
 
+export default GroupModal;
 
 GroupModal.propTypes = {
     modalVisible: PropTypes.bool,
